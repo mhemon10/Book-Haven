@@ -4,7 +4,7 @@ const Navbar = () => {
 
     const link = <>
         <li className='m-2'>Home</li>
-        <li className='m-2'>About</li>
+        <li className=''>About</li>
     
     </>
 
