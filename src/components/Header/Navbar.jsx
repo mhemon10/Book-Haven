@@ -20,6 +20,13 @@ const Navbar = () => {
       </li>
       <li className="mx-2">
         <Link
+          to="/blog"
+          className="text-sm font-medium hover:text-amber-400 transition-colors">
+          Blog
+        </Link>
+      </li>
+      <li className="mx-2">
+        <Link
           to="/contact"
           className="text-sm font-medium hover:text-amber-400 transition-colors">
           Contact

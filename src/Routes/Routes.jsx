@@ -8,6 +8,7 @@ import Contact from "../pages/Contact/Contact";
 import BookDetails from "../components/BookDetails/BookDetails";
 import SignIn from "../pages/SignIn/SignIn";
 import SignUp from "../pages/SignUp/SignUp";
+import BlogPage from "../pages/Blog/BlogPage";
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ export const router = createBrowserRouter([
       {
         path: "/about",
         Component: About,
+        },
+        {
+            path: "/blog",
+            Component : BlogPage,
       },
       {
         path: "/contact", // ✅ FIXED: Changed from "./contact" to "/contact"

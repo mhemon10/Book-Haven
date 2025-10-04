@@ -135,10 +135,10 @@ const BookHavenChoice = () => {
               discover stories that inspire.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-amber-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-700 transition">
+              <button className="bg-amber-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-amber-700 transition">
                 Browse Books
               </button>
-              <button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-xl font-semibold hover:border-blue-600 hover:text-blue-600 transition">
+              <button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-xl font-semibold hover:border-amber-600 hover:text-amber-600 transition">
                 Learn More
               </button>
             </div>
