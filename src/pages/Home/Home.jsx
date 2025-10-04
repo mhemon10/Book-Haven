@@ -4,6 +4,7 @@ import Category from '../../components/Category/Category';
 import Books from '../Books/Books';
 import { useLoaderData } from 'react-router';
 import BookHavenChoice from '../../components/BookHavenChoice/BookHavenChoice';
+import TestimonialSlider from '../../components/TestimonialSlider /TestimonialSlider ';
 
 const Home = () => {
 
@@ -14,6 +15,7 @@ const Home = () => {
             <Category></Category>
             <Books data={data}></Books>
             <BookHavenChoice></BookHavenChoice>
+            <TestimonialSlider></TestimonialSlider>
         </div>
     );
 };
