@@ -97,9 +97,11 @@ const Navbar = () => {
               {navLinks}
               <div className="divider my-2"></div>
               <li>
-                <a className="text-amber-600 font-semibold hover:bg-amber-50">
-                  🔐 Sign In
-                </a>
+                <Link to ="/signIn">
+                  <a className="text-amber-600 font-semibold hover:bg-amber-50">
+                    🔐 Sign In
+                  </a>
+                </Link>
               </li>
               <li>
                 <a className="text-gray-700 hover:bg-gray-100">📝 Sign Up</a>

@@ -68,7 +68,7 @@ const About = () => {
             <p className="text-lg sm:text-xl md:text-2xl text-gray-600 mb-2 sm:mb-3">
               Home - About Us
             </p>
-            <div className="w-20 sm:w-24 h-1 bg-blue-600 mx-auto"></div>
+            <div className="w-20 sm:w-24 h-1 bg-amber-600 mx-auto"></div>
           </div>
         </div>
       </div>
@@ -94,7 +94,7 @@ const About = () => {
                 <div
                   key={index}
                   className="text-center p-4 sm:p-6 bg-white rounded-xl sm:rounded-2xl shadow-md sm:shadow-lg hover:shadow-xl transition-all duration-300">
-                  <div className="text-blue-600 mb-3 sm:mb-4 flex justify-center">
+                  <div className="text-amber-600 mb-3 sm:mb-4 flex justify-center">
                     {feature.icon}
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-2 text-sm sm:text-base md:text-lg">
@@ -174,7 +174,7 @@ const About = () => {
           </div>
 
           <div className="text-center mt-8 sm:mt-12">
-            <button className="bg-blue-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl font-semibold text-sm sm:text-base md:text-lg">
+            <button className="bg-amber-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl font-semibold text-sm sm:text-base md:text-lg">
               VIEW ABOUT
             </button>
           </div>
@@ -185,7 +185,7 @@ const About = () => {
       <div className="bg-white py-8 sm:py-12 md:py-16 border-t border-gray-200">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto text-center bg-gray-50 rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-md sm:shadow-lg">
-            <Quote className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 text-blue-600 mx-auto mb-4 sm:mb-6" />
+            <Quote className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 text-amber-600 mx-auto mb-4 sm:mb-6" />
             <p className="text-lg sm:text-xl md:text-2xl leading-relaxed mb-6 sm:mb-8 text-gray-700 italic">
               "When it comes to immediate financial help, I know how I can count
               on. Being an accountant, you sometimes need a fresh eye to check
@@ -203,7 +203,7 @@ const About = () => {
                 <h4 className="text-lg sm:text-xl font-bold text-gray-900">
                   Founder Eric Kinnemann
                 </h4>
-                <p className="text-blue-600 font-medium text-sm sm:text-base">
+                <p className="text-amber-600 font-medium text-sm sm:text-base">
                   CEO & Founder
                 </p>
               </div>
@@ -213,7 +213,7 @@ const About = () => {
       </div>
 
       {/* Promo Banner */}
-      <div className="bg-gradient-to-r from-blue-500 to-blue-600 text-white py-8 sm:py-12 rounded-none sm:rounded-2xl mx-0 sm:mx-4 mb-6 sm:mb-8 shadow-lg">
+      <div className="bg-gradient-to-r from-amber-500 to-amber-300 text-white py-8 sm:py-12 rounded-none sm:rounded-2xl mx-0 sm:mx-4 mb-6 sm:mb-8 shadow-lg">
         <div className="container mx-auto px-4 sm:px-6 text-center">
           <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 sm:mb-4">
             Get ~30% purchase on order over $299.00
@@ -221,14 +221,14 @@ const About = () => {
           <p className="text-base sm:text-lg mb-4 sm:mb-6 opacity-90">
             Limited time offer for our valued readers
           </p>
-          <button className="bg-white text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:bg-gray-100 transform hover:scale-105 transition-all duration-200 font-semibold text-sm sm:text-base md:text-lg shadow-lg">
+          <button className="bg-white text-amber-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:bg-gray-100 transform hover:scale-105 transition-all duration-200 font-semibold text-sm sm:text-base md:text-lg shadow-lg">
             SHOP NOW
           </button>
         </div>
       </div>
 
       {/* Top Banner */}
-      <div className="bg-blue-600 text-white py-3 sm:py-4">
+      <div className="bg-amber-600 text-white py-3 sm:py-4">
         <div className="container mx-auto px-4 sm:px-6 text-center">
           <p className="text-base sm:text-lg font-semibold">ABOUT US TOP</p>
         </div>
