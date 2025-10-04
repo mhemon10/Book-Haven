@@ -1,21 +1,31 @@
-import React from 'react';
+import React from "react";
 import { createBrowserRouter } from "react-router";
-import Root from '../pages/Root/Root';
-import ErrorPage from '../pages/ErrorPage/Errorpage';
-import Home from '../pages/Home/Home';
+import Root from "../pages/Root/Root";
+import ErrorPage from "../pages/ErrorPage/Errorpage";
+import Home from "../pages/Home/Home";
+import About from "../pages/About/About";
+import Contact from "../pages/Contact/Contact";
 
 export const router = createBrowserRouter([
   {
+    path: "/",
+    Component: Root,
+    errorElement: <ErrorPage></ErrorPage>,
+    children: [
+      {
+        index: true,
+        loader: () => fetch("booksData.json"),
         path: "/",
-      Component: Root,
-        errorElement: <ErrorPage></ErrorPage>,
-        children: [
-            {
-                index: true,
-                loader: ()=>fetch('booksData.json'),
-                path:"/",
-                Component:Home
-        }
-    ]
+        Component: Home,
+      },
+      {
+        path: "/about",
+        Component: About,
+      },
+      {
+        path: "/contact", // ✅ FIXED: Changed from "./contact" to "/contact"
+        Component: Contact,
+      },
+    ],
   },
 ]);
