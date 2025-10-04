@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link } from "react-router"; // Make sure to import from react-router-dom
 
 const Navbar = () => {
   const navLinks = (
@@ -11,20 +11,6 @@ const Navbar = () => {
           Home
         </Link>
       </li>
-      {/* <li className="mx-2">
-        <Link
-          to="/books"
-          className="text-sm font-medium hover:text-amber-400 transition-colors">
-          Books
-        </Link>
-      </li> */}
-      {/* <li className="mx-2">
-        <Link
-          to="/categories"
-          className="text-sm font-medium hover:text-amber-400 transition-colors">
-          Categories
-        </Link>
-      </li> */}
       <li className="mx-2">
         <Link
           to="/about"
@@ -96,15 +82,21 @@ const Navbar = () => {
               className="menu menu-md dropdown-content bg-white rounded-box z-50 mt-3 w-64 p-4 shadow-xl border">
               {navLinks}
               <div className="divider my-2"></div>
+              {/* Fixed Sign In Link */}
               <li>
-                <Link to ="/signIn">
-                  <a className="text-amber-600 font-semibold hover:bg-amber-50">
-                    🔐 Sign In
-                  </a>
+                <Link
+                  to="/signIn"
+                  className="text-amber-600 font-semibold hover:bg-amber-50 flex items-center gap-2">
+                  <span>🔐</span> Sign In
                 </Link>
               </li>
+              {/* Fixed Sign Up Link */}
               <li>
-                <a className="text-gray-700 hover:bg-gray-100">📝 Sign Up</a>
+                <Link
+                  to="/signUp"
+                  className="text-gray-700 hover:bg-gray-100 flex items-center gap-2">
+                  <span>📝</span> Sign Up
+                </Link>
               </li>
             </ul>
           </div>
@@ -156,7 +148,7 @@ const Navbar = () => {
               className="card dropdown-content bg-white z-50 mt-3 w-72 shadow-xl border">
               <div className="card-body p-4">
                 <span className="font-bold text-lg">Cart Items</span>
-                <span className="text-gray-600">3 items in cart</span>
+                <span className="text-gray-600">0 items in cart</span>
                 <div className="card-actions">
                   <button className="btn btn-amber btn-block btn-sm text-white">
                     View Cart
@@ -166,14 +158,18 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Desktop auth buttons */}
+          {/* Desktop auth buttons - Fixed to use Links */}
           <div className="hidden sm:flex gap-2">
-            <button className="btn btn-outline btn-sm border-amber-600 text-amber-600 hover:bg-amber-600 hover:text-white">
+            <Link
+              to="/signIn"
+              className="btn btn-outline btn-sm border-amber-600 text-amber-600 hover:bg-amber-600 hover:text-white">
               Sign In
-            </button>
-            <button className="btn btn-amber btn-sm text-amber-600 hover:bg-amber-700 hover:text-white">
+            </Link>
+            <Link
+              to="/signUp"
+              className="btn btn-amber btn-sm text-black hover:bg-amber-600 hover:text-white">
               Sign Up
-            </button>
+            </Link>
           </div>
 
           {/* Mobile search icon */}
