@@ -38,7 +38,7 @@ const Contact = () => {
               Contact
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-2">
-              Multitudinar Demo / Contact
+              Feel Free to Contact Us
             </p>
             <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
           </div>

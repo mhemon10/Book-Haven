@@ -5,6 +5,7 @@ import ErrorPage from "../pages/ErrorPage/Errorpage";
 import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
+import BookDetails from "../components/BookDetails/BookDetails";
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
       {
         path: "/contact", // ✅ FIXED: Changed from "./contact" to "/contact"
         Component: Contact,
+        },
+        {
+            path: '/bookDetails/:id',
+            Component:BookDetails,
       },
     ],
   },
