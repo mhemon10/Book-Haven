@@ -145,7 +145,7 @@ const Navbar = () => {
               <div className="indicator">
                 <span className="text-lg">🛒</span>
                 <span className="badge badge-xs badge-amber-500 indicator-item">
-                  3
+                  0
                 </span>
               </div>
             </div>
@@ -169,7 +169,7 @@ const Navbar = () => {
             <button className="btn btn-outline btn-sm border-amber-600 text-amber-600 hover:bg-amber-600 hover:text-white">
               Sign In
             </button>
-            <button className="btn btn-amber btn-sm text-white hover:bg-amber-700">
+            <button className="btn btn-amber btn-sm text-amber-600 hover:bg-amber-700 hover:text-white">
               Sign Up
             </button>
           </div>

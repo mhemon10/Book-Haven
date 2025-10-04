@@ -25,7 +25,7 @@ const Banner = () => {
             most accessible and wisest of counselors, and the most patient of
             teachers
           </p>
-          <button className="px-6 py-3 bg-red-600 hover:bg-red-700 text-white rounded-full font-medium flex items-center gap-2">
+          <button className="px-6 py-3 bg-amber-600 hover:bg-red-700 text-white rounded-full font-medium flex items-center gap-2">
             <span className="text-xl">🛒</span> GO TO SHOP
           </button>
         </div>

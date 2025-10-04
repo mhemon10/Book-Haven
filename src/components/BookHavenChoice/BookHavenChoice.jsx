@@ -14,7 +14,7 @@ const BookHavenChoice = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Your Gateway to{" "}
             <span className="relative">
-              <span className="text-blue-600">Knowledge</span>
+              <span className="text-amber-600">Knowledge</span>
               <div className="absolute bottom-2 left-0 w-full h-3 bg-blue-200 opacity-50 -z-10"></div>
             </span>
           </h1>
@@ -48,7 +48,7 @@ const BookHavenChoice = () => {
             {/* Mini Stats Below Image */}
             <div className="grid grid-cols-3 gap-4 mt-12">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">10K+</div>
+                <div className="text-3xl font-bold text-amber-600">10K+</div>
                 <div className="text-gray-600 text-sm">Readers</div>
               </div>
               <div className="text-center">
@@ -67,7 +67,7 @@ const BookHavenChoice = () => {
             {/* Feature 1 */}
             <div className="flex items-start space-x-4">
               <div className="bg-blue-100 p-3 rounded-xl">
-                <div className="w-6 h-6 bg-blue-600 rounded-full"></div>
+                <div className="w-6 h-6 bg-amber-600 rounded-full"></div>
               </div>
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
@@ -135,7 +135,7 @@ const BookHavenChoice = () => {
               discover stories that inspire.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-blue-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-700 transition">
+              <button className="bg-amber-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-700 transition">
                 Browse Books
               </button>
               <button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-xl font-semibold hover:border-blue-600 hover:text-blue-600 transition">

@@ -48,7 +48,7 @@ const Book = ({ singleBook }) => {
           </div>
 
           {/* Buttons */}
-          <div className="flex gap-3">
+          {/* <div className="flex gap-3">
             <button className="flex items-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition">
               <ShoppingBag size={16} />
               Order Now
@@ -57,7 +57,7 @@ const Book = ({ singleBook }) => {
               <ShoppingCart size={16} />
               Add to Cart
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </Link>

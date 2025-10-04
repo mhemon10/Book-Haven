@@ -51,11 +51,11 @@ const BookDetails = () => {
       <div className="bg-white border-b">
         <div className="container mx-auto px-4 py-4">
           <nav className="text-sm text-gray-600">
-            <Link to="/" className="hover:text-indigo-600">
+            <Link to="/" className="hover:text-amber-400">
               Home
             </Link>
             <span className="mx-2">›</span>
-            <Link to="/" className="hover:text-indigo-600">
+            <Link to="/" className="hover:text-amber-400">
               Shop
             </Link>
             <span className="mx-2">›</span>
@@ -83,7 +83,7 @@ const BookDetails = () => {
           <div className="bg-white rounded-2xl p-8 shadow-sm">
             {/* Category & Rating */}
             <div className="flex justify-between items-center mb-4">
-              <span className="text-sm text-indigo-600 font-medium">
+              <span className="text-sm text-amber-600 font-medium">
                 {category}
               </span>
               <div className="flex items-center gap-1">
@@ -93,7 +93,7 @@ const BookDetails = () => {
                     size={16}
                     className={`${
                       star <= Math.floor(rating)
-                        ? "fill-yellow-400 text-yellow-400"
+                        ? "fill-yellow-400 text-amber-400"
                         : "text-gray-300"
                     }`}
                   />
@@ -198,7 +198,7 @@ const BookDetails = () => {
               {tags?.map((tag, index) => (
                 <span
                   key={index}
-                  className="px-3 py-1 bg-blue-100 text-blue-600 text-xs font-medium rounded-full">
+                  className="px-3 py-1 bg-blue-100 text-amber-600 text-xs font-medium rounded-full">
                   {tag}
                 </span>
               ))}
@@ -206,7 +206,7 @@ const BookDetails = () => {
 
             {/* Action Buttons */}
             <div className="flex gap-4 mb-8">
-              <button className="flex items-center justify-center gap-2 bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition font-semibold flex-1">
+              <button className="flex items-center justify-center gap-2 bg-amber-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition font-semibold flex-1">
                 <ShoppingCart size={20} />
                 Add to Cart
               </button>
@@ -223,7 +223,7 @@ const BookDetails = () => {
               <button
                 className={`px-4 py-2 border-b-2 font-medium ${
                   activeTab === "other"
-                    ? "border-indigo-600 text-indigo-600"
+                    ? "border-amber-600 text-amber-600"
                     : "text-gray-600 border-transparent"
                 }`}
                 onClick={() => setActiveTab("other")}>
@@ -232,7 +232,7 @@ const BookDetails = () => {
               <button
                 className={`px-4 py-2 border-b-2 font-medium ${
                   activeTab === "your"
-                    ? "border-indigo-600 text-indigo-600"
+                    ? "border-amber-600 text-amber-600"
                     : "text-gray-600 border-transparent"
                 }`}
                 onClick={() => setActiveTab("your")}>
@@ -285,7 +285,7 @@ const BookDetails = () => {
                     />
                     <span className="text-sm text-gray-600">{book.rating}</span>
                   </div>
-                  <div className="h-1 w-12 bg-indigo-600 mx-auto"></div>
+                  <div className="h-1 w-12 bg-amber-600 mx-auto"></div>
                 </div>
               </Link>
             ))}
@@ -296,7 +296,7 @@ const BookDetails = () => {
         <div className="mt-12 grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="bg-white rounded-2xl p-6 shadow-sm text-center">
             <h3 className="text-xl font-bold text-gray-900 mb-2">SILENCE</h3>
-            <div className="h-1 w-12 bg-indigo-600 mx-auto mb-4"></div>
+            <div className="h-1 w-12 bg-amber-600 mx-auto mb-4"></div>
             <p className="text-sm text-gray-600">Peaceful Reading</p>
           </div>
 
@@ -308,7 +308,7 @@ const BookDetails = () => {
 
           <div className="bg-white rounded-2xl p-6 shadow-sm text-center">
             <h3 className="text-xl font-bold text-gray-900 mb-2">SILENTWORK</h3>
-            <div className="h-1 w-12 bg-blue-600 mx-auto mb-4"></div>
+            <div className="h-1 w-12 bg-amber-600 mx-auto mb-4"></div>
             <p className="text-sm text-gray-600">Focus Mode</p>
           </div>
 

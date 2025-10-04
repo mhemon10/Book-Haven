@@ -32,7 +32,7 @@ const OurMission = () => {
         {/* Header Section */}
         <div className="text-center mb-12 sm:mb-16 lg:mb-20">
           <div className="flex justify-center mb-4">
-            <Award className="w-12 h-12 text-blue-600" />
+            <Award className="w-12 h-12 text-amber-600" />
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Our Mission
@@ -46,7 +46,7 @@ const OurMission = () => {
 
         {/* Divider Line */}
         <div className="flex justify-center mb-12 sm:mb-16 lg:mb-20">
-          <div className="w-24 h-1 bg-blue-600 rounded-full"></div>
+          <div className="w-24 h-1 bg-amber-600 rounded-full"></div>
         </div>
 
         {/* Mission Cards Grid */}
@@ -56,7 +56,7 @@ const OurMission = () => {
               key={index}
               className="group text-center bg-white rounded-2xl p-6 sm:p-8 lg:p-10 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-100">
               {/* Card Icon */}
-              <div className="w-16 h-16 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
+              <div className="w-16 h-16 bg-blue-100 text-amber-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 group-hover:bg-amber-600 group-hover:text-white transition-all duration-300">
                 {card.icon}
               </div>
 
@@ -74,7 +74,7 @@ const OurMission = () => {
               </p>
 
               {/* Learn More Button */}
-              <button className="bg-transparent border-2 border-blue-600 text-blue-600 px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold text-sm sm:text-base hover:bg-blue-600 hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2 mx-auto">
+              <button className="bg-transparent border-2 border-amber-600 text-amber-600 px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold text-sm sm:text-base hover:bg-amber-600 hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2 mx-auto">
                 {card.buttonText}
                 <TrendingUp className="w-4 h-4" />
               </button>
@@ -86,7 +86,7 @@ const OurMission = () => {
         <div className="text-center mt-12 sm:mt-16 lg:mt-20">
           <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 sm:p-10 lg:p-12 max-w-4xl mx-auto">
             <div className="flex justify-center mb-6">
-              <Users className="w-12 h-12 text-blue-600" />
+              <Users className="w-12 h-12 text-amber-600" />
             </div>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
               Join 10,000+ Happy Readers
@@ -108,11 +108,11 @@ const OurMission = () => {
               </span>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-all transform hover:scale-105 shadow-lg flex items-center gap-2">
+              <button className="bg-amber-600 text-white px-8 py-3 rounded-lg font-semibold text-lg hover:bg-amber-700 transition-all transform hover:scale-105 shadow-lg flex items-center gap-2">
                 <BookOpen className="w-5 h-5" />
                 Start Reading Today
               </button>
-              <button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-semibold text-lg hover:border-blue-600 hover:text-blue-600 transition-all flex items-center gap-2">
+              <button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-semibold text-lg hover:border-amber-600 hover:text-amber-600 transition-all flex items-center gap-2">
                 <Users className="w-5 h-5" />
                 Join Community
               </button>

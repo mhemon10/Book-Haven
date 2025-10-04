@@ -6,6 +6,7 @@ import { useLoaderData } from 'react-router';
 import BookHavenChoice from '../../components/BookHavenChoice/BookHavenChoice';
 import TestimonialSlider from '../../components/TestimonialSlider /TestimonialSlider ';
 import OurMission from '../../components/OurMission/OurMission';
+import FAQ from '../../components/FAQ/FAQ';
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
             <BookHavenChoice></BookHavenChoice>
             <OurMission></OurMission>
             <TestimonialSlider></TestimonialSlider>
+            <FAQ></FAQ>
         </div>
     );
 };

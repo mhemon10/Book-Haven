@@ -40,7 +40,7 @@ const Contact = () => {
             <p className="text-xl md:text-2xl text-gray-600 mb-2">
               Feel Free to Contact Us
             </p>
-            <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+            <div className="w-24 h-1 bg-amber-600 mx-auto"></div>
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@ const Contact = () => {
               <div className="flex items-start space-x-4">
                 <div className="bg-blue-100 p-3 rounded-lg">
                   <svg
-                    className="w-6 h-6 text-blue-600"
+                    className="w-6 h-6 text-amber-600"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24">
@@ -92,9 +92,9 @@ const Contact = () => {
                     Our Location
                   </h3>
                   <p className="text-gray-600">
-                    121 King Street, Melbourne,
+                    Uttara, Uttarkhan,
                     <br />
-                    Victoria 3000 Australia
+                    Dhaka-1230 
                   </p>
                 </div>
               </div>
@@ -144,8 +144,8 @@ const Contact = () => {
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
                     Working Hours
                   </h3>
-                  <p className="text-gray-600 mb-1">Mon-Fr: 6:30am-7:30pm</p>
-                  <p className="text-gray-600">Sat: 8:30am-3:30pm</p>
+                  <p className="text-gray-600 mb-1">Sat-Thu: 6:30am-7:30pm</p>
+                  <p className="text-gray-600">Sat: 8:30am-:30pm</p>
                 </div>
               </div>
             </div>
@@ -234,7 +234,7 @@ const Contact = () => {
               {/* Submit Button */}
               <button
                 type="submit"
-                className="w-full bg-blue-600 text-white py-4 px-6 rounded-lg font-semibold text-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
+                className="w-full bg-amber-600 text-white py-4 px-6 rounded-lg font-semibold text-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
                 Send Message
               </button>
             </form>
