@@ -26,10 +26,11 @@ export const router = createBrowserRouter([
       {
         path: "/contact", // ✅ FIXED: Changed from "./contact" to "/contact"
         Component: Contact,
-        },
-        {
-            path: '/bookDetails/:id',
-            Component:BookDetails,
+      },
+      {
+        path: "/bookDetails/:id",
+        loader: () => fetch("booksData.json"),
+        Component: BookDetails,
       },
     ],
   },
