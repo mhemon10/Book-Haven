@@ -119,7 +119,7 @@ const Contact = () => {
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
                     Let's Talk
                   </h3>
-                  <p className="text-gray-600 mb-1">Phone: +123 34567890</p>
+                  <p className="text-gray-600 mb-1">Phone: +8801932-582807</p>
                   <p className="text-gray-600">Fax: +123 8765 4321</p>
                 </div>
               </div>
@@ -145,7 +145,7 @@ const Contact = () => {
                     Working Hours
                   </h3>
                   <p className="text-gray-600 mb-1">Sat-Thu: 6:30am-7:30pm</p>
-                  <p className="text-gray-600">Sat: 8:30am-:30pm</p>
+                  <p className="text-gray-600">Sat: 8:30am-5:30pm</p>
                 </div>
               </div>
             </div>
